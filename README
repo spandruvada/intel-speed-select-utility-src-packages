@@ -1,0 +1,17 @@
+This is a source package for intel-speed-select utility for building
+outside of the linux kernel source tree.
+
+This source is same as what can be found at
+git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+under tools/power/x86/intel-speed-select folder. But there is a lag
+in merging to mainline linux git, so they may differ for some time.
+
+This utility can always be built from the kernel source tree.
+Some users prefer building outside the kernel source tree. So there
+is a difference in Makefile.
+
+To build this source, you need "gcc" and "make" commands on your platform.
+Download the *.tar.gz file and use tar xvf to decompress.
+Then simply use "make".
+
+
