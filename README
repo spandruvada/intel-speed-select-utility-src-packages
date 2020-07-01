@@ -14,4 +14,12 @@ To build this source, you need "gcc" and "make" commands on your platform.
 Download the *.tar.gz file and use tar xvf to decompress.
 Then simply use "make".
 
-
+Version history:
+v1.5-rc1
+- Add retries for mail box commands: On failure mailbox commands are retried for 3 times.
+User can use -r option to change retry count.
+- Add option to delay mbox commands: Use -p command to add delay between two mail box
+commands in millisecond. For example: -p 1000 for 1000 ms delay.
+- Ignore -o option processing on mail box command error for changing config level
+- Change path for caching topology info: This changes the cache file path to
+/var/run which should be refreshed after reboot
