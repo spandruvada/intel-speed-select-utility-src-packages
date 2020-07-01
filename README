@@ -14,7 +14,7 @@ To build this source, you need "gcc" and "make" commands on your platform.
 Download the *.tar.gz file and use tar xvf to decompress.
 Then simply use "make".
 
-Samle usage:
+Sample usage:
 - Download the zip file by selecting "Code" and download zip file.
 For example if the downloaded zip is
 intel-speed-select-utility-src-packages-34de5f67f4a369b040a5a74b0ae3103c0abd2535.zip
