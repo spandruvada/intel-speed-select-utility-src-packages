@@ -27,6 +27,8 @@ $ make
 This will build the "intel-speed-select" folder.
 
 Version history:
+v1.5
+  Change to debug print only for the message for mailbox retry failures.
 v1.5-rc1
 - Add retries for mail box commands: On failure mailbox commands are retried for 3 times.
 User can use -r option to change retry count.
