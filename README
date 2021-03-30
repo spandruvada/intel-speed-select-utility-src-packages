@@ -27,6 +27,26 @@ $ make
 This will build the "intel-speed-select" folder.
 
 Version history:
+v1.9
+- Support increased number of CPUs
+- Return error when mailbox commmand fails to enable core-power
+- Option to online all CPUs
+- Remove build date and time print
+
+v1.8
+- Set scaling_max_freq to base-freq to take care of issue with BIOS disable turbo
+and kernel changes post 5.8 for setting HWP.max to HWP.guarantee.
+- Add new commands for turbo-mode disable/enable and set-trl`
+
+v1.6
+- Processing of failure of mailbox command to get core mask during
+change config level with -o option
+
+v1.7
+- For fixing issue when there is no die_id syfs and TRL display
+from mailbox when there is no SST-PP present on non Skylake based
+systems.
+
 v1.5
   Change to debug print only for the message for mailbox retry failures.
 v1.5-rc1
