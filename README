@@ -27,6 +27,9 @@ $ make
 This will build the "intel-speed-select" folder.
 
 Version history:
+v1.10
+- Fix for memory frequency display
+
 v1.9
 - Support increased number of CPUs
 - Return error when mailbox commmand fails to enable core-power
