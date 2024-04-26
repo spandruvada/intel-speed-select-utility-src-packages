@@ -15,6 +15,12 @@ Download the *.tar.gz file and use tar xvf to decompress.
 Then simply use "make".
 
 Sample usage:
+- Install libnl-genl-3-dev
+For Fedora/CenOS
+	dnf install libnl3-devel
+For Ubuntu
+	apt install libnl-3-dev libnl-genl-3-dev
+
 - Download the zip file by selecting "Code" and download zip file.
 For example if the downloaded zip is
 intel-speed-select-utility-src-packages-34de5f67f4a369b040a5a74b0ae3103c0abd2535.zip
