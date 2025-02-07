@@ -33,6 +33,12 @@ $ make
 This will build the "intel-speed-select" folder.
 
 Version history:
+v1.21:
+Fix restoring TRL after SST-TF disable
+
+v1.20:
+Set TRL MSR in 100 MHz units
+
 v1.19:
 See the commit log
 
