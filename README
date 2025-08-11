@@ -33,6 +33,10 @@ $ make
 This will build the "intel-speed-select" folder.
 
 Version history:
+v1.23:
+Display SST-PP rev-2
+Skip uncore frequency update
+
 v1.22:
 Address die_id display
 
