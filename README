@@ -33,6 +33,15 @@ $ make
 This will build the "intel-speed-select" folder.
 
 Version history:
+
+v1.26:
+
+Matches source code of intel-speed-select released for Linux kernel version v7.2
+- Includes symbolic link attack fix for OOB mode
+- Allow read only commands for non root users when permitted
+- Check feature status to check if the feature enablement was successful
+- Reset SST-TF bucket structure to display valid bucket info
+
 v1.23:
 Display SST-PP rev-2
 Skip uncore frequency update
